@@ -9,9 +9,11 @@ npm-debug.log
 yarn-error.log
 #lib/
 
+
 # Xcode
 #
 ios/build/
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -32,8 +34,14 @@ project.xcworkspace
 
 # Android/IntelliJ
 #
+build/
 android/build/
 .idea
 .gradle
 local.properties
 *.iml
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
